@@ -1,7 +1,11 @@
 import sys
 
 def main(key, mac):
-    mac = mac.split(':')
+    try:
+        mac = mac.split(':')
+    except:
+        return False
+    
 
     if len(mac) != 6 or mac[0] != 'TD':
         return False
