@@ -1,8 +1,8 @@
 # RollingCodeMAC
-Generate and Verify random MAC Address. This is a small part of 
+Generate and Verify random MAC Address. This is a small part of a project that require two mobile devices to communicated with each other without being tracked.
 
 ## Problem
-The project require two portable devices that continuously scan each other using Bluetooth signal. In order to do this, the MAC Address of both devices need to be exposed. Movements of devices can be monitored if the MAC Address is fixed. Therefore, I solve the problem by creating a dynamic, rolling, decodable MAC Address to communicate between two devices without exposing the location or identity of both devices.
+The project require two portable devices that continuously scan each other using Bluetooth. In order to do this, the MAC Address of both devices need to be exposed. Movements of devices can be monitored if the MAC Address is fixed. One of the solution is to create a dynamic, rolling, decodable MAC Address to communicate between two devices without exposing the location or identity of both devices.
 
 ## Idea
  - The MAC Address follows the format ```AA:BB:CC:DD:EE:FF```
